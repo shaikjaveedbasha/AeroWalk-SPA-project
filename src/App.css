@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+.navbar {
+  background-color: #f2f6ff;
+  border-bottom: 1px solid whitesmoke;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 30px;
+ 
+}
+
+
+footer {
+  border-top: 1px solid silver;
+}
+.last-row {
+  font-weight: 900;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(to bottom, rgb(230, 23, 23), rgb(118, 6, 6));
+  background-size: cover;
+  background-position: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
   color: white;
+  text-align: center;
+  padding: 30px;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.banner1 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.075), rgba(230, 245, 255, 0.123)), url('./Puma-Project/assets/new-banner.jpg');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner2 {
+  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.075), rgba(230, 245, 255, 0.123)), url('./Puma-Project/assets/new-banner-2.jpg');
+}
+
+.banner3 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.075), rgba(230, 245, 255, 0.123)), url('./Puma-Project/assets/new-banner-3.jpg');
+}
+
+.carousel h1 {
+  color: black;
+  font-weight: 900;
+}
+
+.carousel p {
+  color: black;
+  font-weight: 500;
+}
+
+.carousel-item button {
+  padding: 8px 15px;
+  border: 1px solid white;
+  
+} 
+
+.whychoose,
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  border-radius: 15px 15px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+
+
+.aboutimg,
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  border-radius: 15px 15px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+.collection img {
+  height: 300px;
+}
+
+.shop,
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  border-radius: 15px 15px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+form p {
+  color: red;
+  padding: 0px 10px;
+}
+
+.order-item{
+  width: 300px;
+  height: 400px;
 }
