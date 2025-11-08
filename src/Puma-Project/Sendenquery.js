@@ -128,7 +128,7 @@ export default class SendEnquiry extends Component {
                         <textarea className="form-control" id="message" rows="3" placeholder="Any specific request or delivery info?"></textarea>
                     </div>
                     <div className="text-center">
-                        <Link to={'/Confirm'}><button type="submit" className="btn btn-primary px-4 py-2">Book Now </button></Link>
+                       <button type="submit" className="btn btn-primary px-4 py-2">Book Now </button>
                     </div>
                 </div>
             </form>
